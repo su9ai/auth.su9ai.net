@@ -1,13 +1,13 @@
-title: "アプリケーション名"
-email: support@example.com
+title: "su9ai専用個人向けサービス"
+email: admin@su9ai.net
 description: >-
-  Google アカウントでサインインできる ○○ サービスです。
+  Google アカウントでサインインできるsu9ai専用個人向けサービスです。
 baseurl: ""
 url: "https://auth.su9ai.net"
 lang: ja
 author:
-  name: "運営者名"
-  email: support@example.com
+  name: "su9ai"
+  email: admin@su9ai.net
 
 markdown: kramdown
 kramdown:
