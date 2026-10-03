@@ -1,7 +1,7 @@
-title: "su9ai専用個人向けサービス"
+title: "su9ai Personal Auth Service"
 email: admin@su9ai.net
 description: >-
-  Google アカウントでサインインできるsu9ai専用個人向けサービスです。
+  A personal authentication service for su9ai, allowing sign-in with a Google account.
 baseurl: ""
 url: "https://auth.su9ai.net"
 lang: ja
