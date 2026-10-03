@@ -1,0 +1,30 @@
+title: "アプリケーション名"
+email: support@example.com
+description: >-
+  Google アカウントでサインインできる ○○ サービスです。
+baseurl: ""
+url: "https://auth.su9ai.net"
+lang: ja
+author:
+  name: "運営者名"
+  email: support@example.com
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins: []
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .gitignore
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
