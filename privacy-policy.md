@@ -70,7 +70,7 @@ description: 当サービスにおける個人情報および Google アカウ�
 本ポリシーに関するお問い合わせは、下記までお願いします。
 
 - 運営者名：{{ site.author.name }}（個人）
-- メールアドレス：[{{ site.author.email }}](mailto:{{ site.author.email }})
+- メールアドレス：{% include email-link.html %}
 
 ## 10. 個人運営について
 

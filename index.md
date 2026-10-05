@@ -39,4 +39,4 @@ description: Google アカウントでサインインできるsu9ai専用個人�
 ## 運営者情報
 
 - 運営者名：{{ site.author.name }}
-- 問い合わせ先：[{{ site.author.email }}](mailto:{{ site.author.email }})
+- 問い合わせ先：{% include email-link.html %}

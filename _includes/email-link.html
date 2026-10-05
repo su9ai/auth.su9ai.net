@@ -1,0 +1,2 @@
+{% assign email_parts = site.author.email | split: '@' -%}
+<span class="email-link" data-user="{{ email_parts[0] }}" data-domain="{{ email_parts[1] }}">{{ email_parts[0] }} (at) {{ email_parts[1] }}</span>

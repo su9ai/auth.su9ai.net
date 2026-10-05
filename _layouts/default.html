@@ -9,5 +9,17 @@
       </div>
     </main>
     {% include footer.html %}
+    <script>
+      (function() {
+        document.querySelectorAll('.email-link').forEach(function(el) {
+          var user = el.getAttribute('data-user');
+          var domain = el.getAttribute('data-domain');
+          if (user && domain) {
+            var address = user + '@' + domain;
+            el.innerHTML = '<a href="mailto:' + address + '">' + address + '</a>';
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
